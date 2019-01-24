@@ -1,3 +1,4 @@
+@echo off
 setlocal EnableDelayedExpansion
 for /f "skip=3 tokens=1" %%i in ('TASKLIST') do (
 SET /A p = 0
@@ -7,5 +8,4 @@ if %%i==%%a (SET /A p = 1; echo %%a)
 if !p!==0 (taskkill /f /im "%%i*")
 )
 :-------------------------------------- 
-:reduces privileges to run steamvr
 start /HIGH "yay" "%WINDIR%\explorer.exe" "steam://rungameid/250820"
