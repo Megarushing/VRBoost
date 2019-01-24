@@ -11,3 +11,8 @@ I have noticed significant inprovements with this on my mid range PC so I am rel
 
 # Versions
 The best version will request admin privileges before starting to kill processes, this allows it to end more processes than previously capable, in case you do not have or do not want to use admin privileges there is also a NoAdmin version
+
+# Usage
+just copy your chosen script to your desktop and run it whenever you want to start SteamVR
+
+you may also modify and add other commands to it, like starting dashboards, favorite games etc. to whitelist other processes in case necessary just edit the whitelist and add its name
